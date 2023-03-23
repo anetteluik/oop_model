@@ -30,4 +30,5 @@ function controlResistorAllowed(resistors: Resistor[], u: number): Resistor[] {
     return allowedResistors
 }
 
-console.log(controlResistorAllowed(resistors, 5))
+let allowedResistors = controlResistorAllowed(resistors, 5)
+console.log(allowedResistors)
